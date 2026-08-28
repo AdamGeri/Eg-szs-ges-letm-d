@@ -214,6 +214,4 @@ gyűjtöttem. A válaszokat kizárólag összesítve, iskolai projekt keretében
 
 ## GitHub-link
 
-> `https://github.com/<felhasznalonev>/egeszseges-eletmod`
->
-> *(A repository létrehozása után ide kerül a végleges link.)*
+>   https://github.com/AdamGeri/Eg-szs-ges-letm-d
