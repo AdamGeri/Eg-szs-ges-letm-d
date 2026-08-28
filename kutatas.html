@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kutatásunk | Egészséges életmód – IKT projektmunka</title>
+<meta name="description" content="Egy 22 fős, 16 kérdéses kérdőíves felmérés teljes eredménye 18 diagrammal.">
+<meta name="author" content="Gerecze Ádám">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span class="brand-jel">EÉ</span> Egészséges életmód
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menü megnyitása">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+        <li class="nav-item"><a class="nav-link" href="taplalkozas.html">Táplálkozás</a></li>
+        <li class="nav-item"><a class="nav-link" href="mozgas.html">Mozgás</a></li>
+        <li class="nav-item"><a class="nav-link" href="alvas.html">Alvás és képernyő</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="kutatas.html">Kutatásunk</a></li>
+        <li class="nav-item"><a class="nav-link" href="forrasok.html">Források</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="oldal-fej">
+  <div class="container">
+    <span class="rovat">A projekt kutatási része</span>
+    <h1>A kérdőíves felmérésünk</h1>
+    <p class="mt-3">16 kérdés, 22 kitöltő, 18 diagram. Itt látható a teljes eredmény — beleértve azt is, amit a felmérés <em>nem</em> tud bizonyítani.</p>
+  </div>
+</header>
+
+<section class="szakasz szakasz-vilagos">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <span class="rovat">Módszertan</span>
+        <h2>Hogyan készült?</h2>
+        <p>A kérdőívet Google Űrlapok segítségével állítottam össze, és online linken
+        keresztül osztottam meg osztálytársaimmal és ismerőseimmel. A kitöltés
+        anonim és önkéntes volt, körülbelül három percet vett igénybe. A nyers
+        válaszokat CSV-be exportáltam, majd Python nyelven (pandas és matplotlib
+        könyvtárak) dolgoztam fel és ábrázoltam.</p>
+        <div class="figyelem">
+          <h3>A minta korlátai — ezt fontos elöljáróban tisztázni</h3>
+          <p class="mb-0">A felmérés <strong>nem reprezentatív</strong>. Kényelmi mintavétellel
+          készült: a válaszadók a saját iskolai és ismeretségi körömből származnak,
+          összesen 22-en. Ez itt különösen fontos, mert a minta feltűnően sportos
+          (18 fő mozog legalább heti háromszor) — ami
+          valószínűleg nem a korosztályra, hanem az én környezetemre jellemző.
+          Az eredmények tehát <strong>erről a 22 emberről</strong> szólnak.</p>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="kartya">
+          <h3 class="mb-3">A felmérés adatlapja</h3>
+          <table class="table table-borderless mb-0">
+            <tbody>
+              <tr><td class="ps-0"><strong>Kérdések száma</strong></td><td class="text-end pe-0">16</td></tr>
+              <tr><td class="ps-0"><strong>Kitöltők</strong></td><td class="text-end pe-0">22 fő</td></tr>
+              <tr><td class="ps-0"><strong>Életkor</strong></td><td class="text-end pe-0">14–19 év</td></tr>
+              <tr><td class="ps-0"><strong>Eszköz</strong></td><td class="text-end pe-0">Google Űrlapok</td></tr>
+              <tr><td class="ps-0"><strong>Feldolgozás</strong></td><td class="text-end pe-0">Python, pandas</td></tr>
+              <tr><td class="ps-0"><strong>Diagramok</strong></td><td class="text-end pe-0">18</td></tr>
+              <tr><td class="ps-0"><strong>Mintavétel</strong></td><td class="text-end pe-0">kényelmi</td></tr>
+              <tr><td class="ps-0"><strong>Anonimitás</strong></td><td class="text-end pe-0">teljes</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="szakasz">
+  <div class="container">
+    <span class="rovat">Eredmények · 1</span>
+    <h2>Kik töltötték ki?</h2>
+    <div class="row g-4 mt-1">
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/01_nemek.png" alt="Fánkdiagram a kitöltők nemek szerinti megoszlásáról">
+          <figcaption>1. ábra – Nemek szerinti megoszlás. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/02_eletkor.png" alt="Oszlopdiagram az életkori megoszlásról">
+          <figcaption>2. ábra – Életkori megoszlás. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="mt-5"></div>
+    <span class="rovat">Eredmények · 2</span>
+    <h2>Táplálkozás</h2>
+    <p class="text-secondary" style="max-width:64ch">Ezen a területen a minta jól
+    teljesít — egyetlen kivétellel, a zöldség- és gyümölcsfogyasztással.</p>
+    <div class="row g-4 mt-1">
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/03_reggeli.png" alt="Fánkdiagram a reggelizési szokásokról">
+          <figcaption>3. ábra – Reggelizés iskolanapokon. Saját felmérés, 21 válasz.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/04_zoldseg_gyumolcs.png" alt="Oszlopdiagram a napi zöldség- és gyümölcsfogyasztásról">
+          <figcaption>4. ábra – Napi zöldség- és gyümölcsfogyasztás. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/05_cukros_udito.png" alt="Oszlopdiagram a cukros üdítő fogyasztásáról">
+          <figcaption>5. ábra – Cukros üdítő fogyasztása. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/06_vizfogyasztas.png" alt="Oszlopdiagram a napi vízfogyasztásról">
+          <figcaption>6. ábra – Napi vízfogyasztás. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/07_gyorsetterem.png" alt="Oszlopdiagram a gyorséttermi étkezés gyakoriságáról">
+          <figcaption>7. ábra – Gyorséttermi vagy rendelt étel fogyasztása. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="mt-5"></div>
+    <span class="rovat">Eredmények · 3</span>
+    <h2>Mozgás</h2>
+    <p class="text-secondary" style="max-width:64ch">A minta legerősebb területe:
+    18 fő mozog legalább heti három alkalommal.</p>
+    <div class="row g-4 mt-1">
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/08_sport_gyakorisag.png" alt="Oszlopdiagram a sportolás gyakoriságáról">
+          <figcaption>8. ábra – Testmozgás gyakorisága a tesiórán kívül. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/09_mozgasformak.png" alt="Vízszintes oszlopdiagram a választott mozgásformákról">
+          <figcaption>9. ábra – Választott mozgásformák (többválaszos). Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="mt-5"></div>
+    <span class="rovat">Eredmények · 4</span>
+    <h2>Alvás, képernyő, közérzet</h2>
+    <p class="text-secondary" style="max-width:64ch">Itt található a második vakfolt:
+    10 fő 7 óránál kevesebbet alszik, és
+    14 fő rendszeresen fáradt.</p>
+    <div class="row g-4 mt-1">
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/10_alvas.png" alt="Fánkdiagram az alvásidőről">
+          <figcaption>10. ábra – Alvásidő iskolai éjszakán. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/11_kepernyoido.png" alt="Oszlopdiagram a napi képernyőidőről">
+          <figcaption>11. ábra – Napi szabadidős képernyőidő. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/12_faradtsag.png" alt="Oszlopdiagram a nappali fáradtság gyakoriságáról">
+          <figcaption>12. ábra – Nappali fáradtság gyakorisága. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/13_energiaital.png" alt="Fánkdiagram az energiaital-fogyasztásról">
+          <figcaption>13. ábra – Energiaital-fogyasztás. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="mt-5"></div>
+    <span class="rovat">Eredmények · 5</span>
+    <h2>Attitűd és tájékozódás</h2>
+    <div class="row g-4 mt-1">
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/14_onertekeles.png" alt="Oszlopdiagram az egészség-önértékelésről">
+          <figcaption>14. ábra – Egészség-önértékelés 1–5 skálán, átlag: 3,82. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/15_informacioforras.png" alt="Vízszintes oszlopdiagram a tájékozódási forrásokról">
+          <figcaption>15. ábra – Információforrások (többválaszos). Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/16_valtoztatas.png" alt="Fánkdiagram a változtatási szándékról">
+          <figcaption>16. ábra – Szeretnél változtatni az életmódodon? Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="mt-5"></div>
+    <span class="rovat">Eredmények · 6</span>
+    <h2>Összefüggések</h2>
+    <p class="text-secondary" style="max-width:64ch">Két kereszttáblát készítettem.
+    Mindkettőnél fontos, hogy <strong>együttjárásról</strong> van szó: a felmérés
+    keresztmetszeti, tehát az ok-okozati irányt nem tudja megállapítani.</p>
+    <div class="row g-4 mt-1">
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/17_kepernyo_faradtsag.png" alt="Oszlopdiagram a képernyőidő és a rendszeres fáradtság kapcsolatáról">
+          <figcaption>17. ábra – Képernyőidő és rendszeres nappali fáradtság. Saját felmérés, n=22.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <figure class="diagram">
+          <img src="kepek/diagramok/18_alvas_onertekeles.png" alt="Oszlopdiagram az alvásmennyiség és az önértékelés kapcsolatáról">
+          <figcaption>18. ábra – Alvásmennyiség és egészség-önértékelés. Az alcsoportok kis elemszámúak, ezért csak tendenciaként értelmezhető.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="szakasz szakasz-vilagos">
+  <div class="container">
+    <span class="rovat">Összegzés</span>
+    <h2>Hat következtetés</h2>
+    <div class="row g-4 mt-1">
+      <div class="col-md-6 col-lg-4">
+        <div class="kartya"><h3>1. Jobb a vártnál</h3>
+        <p class="text-secondary mb-0">82% mozog rendszeresen,
+        82% iszik elég vizet, az önértékelés átlaga
+        3,82. A kiinduló feltételezésem nem igazolódott.</p></div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="kartya"><h3>2. Zöldség: vakfolt</h3>
+        <p class="text-secondary mb-0">22 emberből 1 közelíti meg
+        az ajánlott mennyiséget, miközben minden más táplálkozási kérdésben jól
+        teljesítenek.</p></div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="kartya"><h3>3. Alvás: vakfolt</h3>
+        <p class="text-secondary mb-0">A minta 45%-a 7 óránál
+        kevesebbet alszik. A jó szokások ezt nem kompenzálják.</p></div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="kartya"><h3>4. Képernyő és fáradtság</h3>
+        <p class="text-secondary mb-0">4 óra alatt 30%,
+        4 óra felett 92% a rendszeresen fáradtak aránya.
+        A felmérés legmarkánsabb eredménye.</p></div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="kartya"><h3>5. Kiegyensúlyozott tájékozódás</h3>
+        <p class="text-secondary mb-0">A közösségi média vezet
+        (14 fő), de orvostól is 9 ember
+        tájékozódik, és senki nem jelölte, hogy sehonnan.</p></div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="kartya"><h3>6. Kétféle üzenet kell</h3>
+        <p class="text-secondary mb-0">12 fő változtatna,
+        10 viszont elégedett. Utóbbiaknak nem tanács kell,
+        hanem a két vakfolt megmutatása.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <h4>Egészséges életmód</h4>
+        <p class="mb-2">IKT Projektmunka I. osztályozó vizsga házi dolgozat, 1/13. Sz. évfolyam.</p>
+        <p class="mb-0">Készítette: <strong>Gerecze Ádám</strong> · 2026. augusztus</p>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h4>Oldalak</h4>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Kezdőlap</a></li>
+          <li><a href="taplalkozas.html">Táplálkozás</a></li>
+          <li><a href="mozgas.html">Mozgás</a></li>
+          <li><a href="alvas.html">Alvás és képernyő</a></li>
+          <li><a href="kutatas.html">Kutatásunk</a></li>
+          <li><a href="forrasok.html">Források</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4">
+        <h4>Fontos</h4>
+        <p class="mb-0">Ez az oldal iskolai projekt keretében készült, tájékoztató célból.
+        Nem helyettesíti az orvosi tanácsadást. Egészségügyi kérdésekkel fordulj
+        háziorvoshoz vagy iskolaorvoshoz.</p>
+      </div>
+    </div>
+    <div class="zaro d-flex flex-wrap justify-content-between gap-2">
+      <span>© <span id="ev">2026</span> Gerecze Ádám</span>
+      <span>Bootstrap 5.3 · saját CSS · saját SVG ábrák</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

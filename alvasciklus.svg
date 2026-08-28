@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-labelledby="a1">
+  <title id="a1">Az alvásciklus: éjszakánként 4-6 darab, körülbelül 90 perces ciklus váltja egymást</title>
+  <rect width="600" height="340" fill="#F5F8F6"/>
+  <g stroke="#DCE6E1" stroke-width="1">
+    <line x1="110" y1="62" x2="570" y2="62"/><line x1="110" y1="112" x2="570" y2="112"/>
+    <line x1="110" y1="162" x2="570" y2="162"/><line x1="110" y1="212" x2="570" y2="212"/>
+    <line x1="110" y1="262" x2="570" y2="262"/>
+  </g>
+  <g font-family="Karla, Segoe UI, sans-serif" font-size="11.5" fill="#5F6F68" text-anchor="end">
+    <text x="100" y="66">Ébrenlét</text><text x="100" y="116">REM (álom)</text>
+    <text x="100" y="166">Felszínes</text><text x="100" y="216">Közepes</text>
+    <text x="100" y="266">Mély alvás</text>
+  </g>
+  <polyline points="110,62 132,162 148,212 170,262 196,262 212,212 230,162 246,112 268,112 284,162 302,212 324,257 348,257 364,212 380,162 396,112 424,112 438,162 454,207 480,207 496,162 512,112 540,112 554,92 570,62"
+    fill="none" stroke="#3E5C8C" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+  <g font-family="Outfit, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#14503B" text-anchor="middle">
+    <text x="190" y="294">1. ciklus</text><text x="305" y="294">2. ciklus</text>
+    <text x="420" y="294">3. ciklus</text><text x="520" y="294">4. ciklus</text>
+  </g>
+  <g font-family="Karla, Segoe UI, sans-serif" font-size="11" fill="#5F6F68" text-anchor="middle">
+    <text x="190" y="312">~90 perc</text><text x="305" y="312">~90 perc</text>
+    <text x="420" y="312">~90 perc</text><text x="520" y="312">~90 perc</text>
+  </g>
+  <text x="110" y="34" font-family="Outfit, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#14503B">Egy éjszaka alvásszerkezete</text>
+  <text x="110" y="332" font-family="Karla, Segoe UI, sans-serif" font-size="11.5" fill="#5F6F68">A mély alvás az éjszaka első felében a legtöbb.</text>
+</svg>

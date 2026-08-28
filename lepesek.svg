@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 210" role="img" aria-labelledby="l1">
+  <title id="l1">Öt kis lépés, amivel el lehet kezdeni: víz, gyümölcs, séta, telefon félretétele, fix lefekvés</title>
+  <rect width="580" height="210" fill="#ffffff"/>
+  <g font-family="Outfit, Segoe UI, sans-serif">
+    <g stroke="#C9E2D6" stroke-width="2" stroke-dasharray="4 5">
+      <line x1="102" y1="70" x2="138" y2="70"/><line x1="214" y1="70" x2="250" y2="70"/>
+      <line x1="326" y1="70" x2="362" y2="70"/><line x1="438" y1="70" x2="474" y2="70"/>
+    </g>
+    <g transform="translate(64,70)">
+      <circle r="34" fill="#E3F0E9"/><circle r="34" fill="none" stroke="#1F7A5C" stroke-width="2.5"/>
+      <text y="8" text-anchor="middle" font-size="25" font-weight="700" fill="#14503B">1</text>
+      <text y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14503B">Egy pohár víz</text>
+      <text y="82" text-anchor="middle" font-family="Karla, sans-serif" font-size="11" fill="#5F6F68">reggel</text>
+    </g>
+    <g transform="translate(176,70)">
+      <circle r="34" fill="#E3F0E9"/><circle r="34" fill="none" stroke="#1F7A5C" stroke-width="2.5"/>
+      <text y="8" text-anchor="middle" font-size="25" font-weight="700" fill="#14503B">2</text>
+      <text y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14503B">Egy gyümölcs</text>
+      <text y="82" text-anchor="middle" font-family="Karla, sans-serif" font-size="11" fill="#5F6F68">minden nap</text>
+    </g>
+    <g transform="translate(288,70)">
+      <circle r="34" fill="#E3F0E9"/><circle r="34" fill="none" stroke="#1F7A5C" stroke-width="2.5"/>
+      <text y="8" text-anchor="middle" font-size="25" font-weight="700" fill="#14503B">3</text>
+      <text y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14503B">20 perc séta</text>
+      <text y="82" text-anchor="middle" font-family="Karla, sans-serif" font-size="11" fill="#5F6F68">heti kétszer</text>
+    </g>
+    <g transform="translate(400,70)">
+      <circle r="34" fill="#E3F0E9"/><circle r="34" fill="none" stroke="#1F7A5C" stroke-width="2.5"/>
+      <text y="8" text-anchor="middle" font-size="25" font-weight="700" fill="#14503B">4</text>
+      <text y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14503B">Telefon félre</text>
+      <text y="82" text-anchor="middle" font-family="Karla, sans-serif" font-size="11" fill="#5F6F68">este, lefekvés előtt</text>
+    </g>
+    <g transform="translate(512,70)">
+      <circle r="34" fill="#14503B"/>
+      <text y="8" text-anchor="middle" font-size="25" font-weight="700" fill="#ffffff">5</text>
+      <text y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14503B">Fix lefekvés</text>
+      <text y="82" text-anchor="middle" font-family="Karla, sans-serif" font-size="11" fill="#5F6F68">hétvégén is</text>
+    </g>
+  </g>
+</svg>

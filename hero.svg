@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-labelledby="h1">
+  <title id="h1">Az egészséges életmód négy pillére: táplálkozás, mozgás, alvás és folyadékfogyasztás</title>
+  <defs>
+    <clipPath id="cp"><circle cx="280" cy="220" r="190"/></clipPath>
+  </defs>
+  <circle cx="280" cy="220" r="190" fill="#E3F0E9"/>
+  <g clip-path="url(#cp)">
+    <circle cx="280" cy="220" r="140" fill="none" stroke="#C9E2D6" stroke-width="2" stroke-dasharray="6 8"/>
+  </g>
+
+  <!-- Táplálkozás: alma -->
+  <g transform="translate(280,74)">
+    <circle r="52" fill="#ffffff" stroke="#D8E5DE" stroke-width="2"/>
+    <path d="M-20,4 C-20,-14 -8,-22 0,-14 C8,-22 20,-14 20,4 C20,20 8,30 0,30 C-8,30 -20,20 -20,4 Z" fill="#D9594C"/>
+    <path d="M0,-14 C2,-24 8,-30 15,-31 C13,-23 8,-17 0,-14 Z" fill="#1F7A5C"/>
+    <rect x="-1.6" y="-24" width="3.2" height="11" rx="1.6" fill="#7A4A2A"/>
+    <text y="44" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#14503B">Táplálkozás</text>
+  </g>
+
+  <!-- Mozgás: súlyzó -->
+  <g transform="translate(432,220)">
+    <circle r="52" fill="#ffffff" stroke="#D8E5DE" stroke-width="2"/>
+    <rect x="-26" y="-4" width="52" height="8" rx="4" fill="#1F7A5C"/>
+    <rect x="-34" y="-15" width="12" height="30" rx="4" fill="#14503B"/>
+    <rect x="22" y="-15" width="12" height="30" rx="4" fill="#14503B"/>
+    <rect x="-42" y="-9" width="8" height="18" rx="3" fill="#A9CF46"/>
+    <rect x="34" y="-9" width="8" height="18" rx="3" fill="#A9CF46"/>
+    <text y="44" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#14503B">Mozgás</text>
+  </g>
+
+  <!-- Alvás: hold -->
+  <g transform="translate(280,366)">
+    <circle r="52" fill="#ffffff" stroke="#D8E5DE" stroke-width="2"/>
+    <path d="M8,-24 A24,24 0 1,0 8,24 A19,19 0 1,1 8,-24 Z" fill="#3E5C8C"/>
+    <circle cx="24" cy="-20" r="2.6" fill="#A9CF46"/>
+    <circle cx="30" cy="-8" r="1.8" fill="#A9CF46"/>
+    <text y="44" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#14503B">Alvás</text>
+  </g>
+
+  <!-- Folyadék: pohár víz -->
+  <g transform="translate(128,220)">
+    <circle r="52" fill="#ffffff" stroke="#D8E5DE" stroke-width="2"/>
+    <path d="M-16,-22 L16,-22 L12,22 L-12,22 Z" fill="#DCEBF5" stroke="#8FB6CE" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M-13.6,-5 L13.6,-5 L12,22 L-12,22 Z" fill="#4E9FD1"/>
+    <circle cx="-4" cy="6" r="2.4" fill="#BFE0F2"/>
+    <circle cx="5" cy="13" r="1.8" fill="#BFE0F2"/>
+    <text y="44" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#14503B">Folyadék</text>
+  </g>
+
+  <circle cx="280" cy="220" r="46" fill="#14503B"/>
+  <text x="280" y="215" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#ffffff">EGYENSÚLY</text>
+  <text x="280" y="234" text-anchor="middle" font-family="Karla, Segoe UI, sans-serif" font-size="11" fill="#A9CF46">nem tökéletesség</text>
+</svg>

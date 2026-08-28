@@ -1,0 +1,215 @@
+{
+  "kitoltok_szama": 22,
+  "nemek": {
+    "Férfi": 10,
+    "Nő": 12,
+    "Nem szeretnék válaszolni": 0
+  },
+  "eletkor": {
+    "14–15": 4,
+    "16–17": 5,
+    "18–19": 13,
+    "20 vagy több": 0
+  },
+  "reggeli": {
+    "Mindig": 15,
+    "Gyakran": 4,
+    "Ritkán": 2,
+    "Soha": 0
+  },
+  "reggeli_valaszolt": 21,
+  "zoldseg_gyumolcs": {
+    "Egyszer sem": 0,
+    "1 alkalommal": 7,
+    "2–3 alkalommal": 14,
+    "4 vagy több alkalommal": 1
+  },
+  "cukros_udito": {
+    "Naponta": 4,
+    "Hetente többször": 2,
+    "Hetente egyszer": 5,
+    "Ritkán vagy soha": 11
+  },
+  "viz": {
+    "0–2": 0,
+    "3–4": 4,
+    "5–7": 9,
+    "8 vagy több": 9
+  },
+  "gyorsetterem": {
+    "Hetente többször": 3,
+    "Hetente egyszer": 3,
+    "Havonta 1–2 alkalommal": 8,
+    "Ritkán vagy soha": 8
+  },
+  "sport": {
+    "Szinte naponta": 17,
+    "Hetente 3–4 alkalommal": 1,
+    "Hetente 1–2 alkalommal": 2,
+    "Szinte soha": 2
+  },
+  "mozgasformak": {
+    "Futás": 16,
+    "Konditerem, erősítés": 14,
+    "Kerékpározás": 14,
+    "Egyéb sporttevékenység": 13,
+    "Séta, túrázás": 5,
+    "Nem sportolok": 1
+  },
+  "alvas": {
+    "8 óránál többet": 1,
+    "7–8 órát": 11,
+    "6–7 órát": 8,
+    "6 óránál kevesebbet": 2
+  },
+  "kepernyo": {
+    "2 óránál kevesebbet": 1,
+    "2–4 órát": 9,
+    "4–6 órát": 10,
+    "6 óránál többet": 2
+  },
+  "faradtsag": {
+    "Szinte minden nap": 5,
+    "Hetente többször": 9,
+    "Ritkán": 8,
+    "Szinte soha": 0
+  },
+  "energiaital": {
+    "Szinte naponta": 0,
+    "Hetente": 2,
+    "Havonta néhányszor": 6,
+    "Soha": 14
+  },
+  "onertekeles": {
+    "1": 0,
+    "2": 1,
+    "3": 4,
+    "4": 15,
+    "5": 2
+  },
+  "onertekeles_atlag": 3.82,
+  "informacioforras": {
+    "Közösségi média": 14,
+    "Család, barátok": 10,
+    "Orvos, szakember": 9,
+    "Szakmai weboldalak": 5,
+    "Iskola, tanárok": 2
+  },
+  "valtoztatas": {
+    "Igen, és konkrét terveim is vannak": 8,
+    "Igen, de nem tudom, hol kezdjem": 4,
+    "Nem, elégedett vagyok a jelenlegivel": 10,
+    "Nem foglalkoztat a kérdés": 0
+  },
+  "kepernyo_faradtsag": {
+    "< 2 óra": {
+      "osszes": 1,
+      "faradt": 0
+    },
+    "2–4 óra": {
+      "osszes": 9,
+      "faradt": 3
+    },
+    "4–6 óra": {
+      "osszes": 10,
+      "faradt": 9
+    },
+    "6+ óra": {
+      "osszes": 2,
+      "faradt": 2
+    }
+  },
+  "alvas_onertekeles": {
+    "8 óránál többet": {
+      "atlag": 4.0,
+      "n": 1
+    },
+    "7–8 órát": {
+      "atlag": 4.0,
+      "n": 11
+    },
+    "6–7 órát": {
+      "atlag": 3.75,
+      "n": 8
+    },
+    "6 óránál kevesebbet": {
+      "atlag": 3.0,
+      "n": 2
+    }
+  },
+  "sport_onertekeles": {
+    "Szinte naponta": {
+      "atlag": 4.0,
+      "n": 17
+    },
+    "Hetente 3–4 alkalommal": {
+      "atlag": 4.0,
+      "n": 1
+    },
+    "Hetente 1–2 alkalommal": {
+      "atlag": 2.5,
+      "n": 2
+    },
+    "Szinte soha": {
+      "atlag": 3.5,
+      "n": 2
+    }
+  },
+  "szarmaztatott": {
+    "alvas_keves_fo": 10,
+    "alvas_nagyon_keves_fo": 2,
+    "alvas_eleg_fo": 12,
+    "alvas_ajanlott_fo": 1,
+    "kepernyo_sok_fo": 12,
+    "zoldseg_sok_fo": 1,
+    "zoldseg_keves_fo": 7,
+    "reggeli_mindig_fo": 15,
+    "reggeli_rendszeres_fo": 19,
+    "reggeli_ritkan_fo": 2,
+    "reggeli_valaszolt": 21,
+    "udito_ritkan_fo": 11,
+    "udito_naponta_fo": 4,
+    "viz_sok_fo": 18,
+    "viz_keves_fo": 0,
+    "gyors_ritkan_fo": 16,
+    "sport_gyakori_fo": 18,
+    "sport_naponta_fo": 17,
+    "sport_soha_fo": 2,
+    "energiaital_fo": 8,
+    "energiaital_soha_fo": 14,
+    "faradt_rendszeres_fo": 14,
+    "faradt_naponta_fo": 5,
+    "valtoztat_fo": 12,
+    "valtoztat_nem_tudja_fo": 4,
+    "valtoztat_elegedett_fo": 10,
+    "info_elso": "Közösségi média",
+    "info_elso_fo": 14,
+    "info_orvos_fo": 9,
+    "info_szakmai_fo": 14,
+    "mozgas_elso": "Futás",
+    "mozgas_elso_fo": 16,
+    "kor_top": "18–19",
+    "kor_top_fo": 13,
+    "kep_also_fo": 10,
+    "kep_also_faradt_fo": 3,
+    "kep_also_faradt_sz": 30,
+    "kep_felso_fo": 12,
+    "kep_felso_faradt_fo": 11,
+    "kep_felso_faradt_sz": 92,
+    "alvas_keves_sz": 45,
+    "alvas_eleg_sz": 55,
+    "kepernyo_sok_sz": 55,
+    "zoldseg_sok_sz": 5,
+    "zoldseg_keves_sz": 32,
+    "udito_ritkan_sz": 50,
+    "viz_sok_sz": 82,
+    "gyors_ritkan_sz": 73,
+    "sport_gyakori_sz": 82,
+    "sport_naponta_sz": 77,
+    "energiaital_soha_sz": 64,
+    "faradt_rendszeres_sz": 64,
+    "valtoztat_sz": 55,
+    "valtoztat_elegedett_sz": 45,
+    "reggeli_rendszeres_sz": 90
+  }
+}

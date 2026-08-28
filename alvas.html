@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alvás és képernyőidő | Egészséges életmód – IKT projektmunka</title>
+<meta name="description" content="Alvásciklusok, képernyőidő és fáradtság összefüggése egy 22 fős saját felmérés alapján.">
+<meta name="author" content="Gerecze Ádám">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span class="brand-jel">EÉ</span> Egészséges életmód
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menü megnyitása">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+        <li class="nav-item"><a class="nav-link" href="taplalkozas.html">Táplálkozás</a></li>
+        <li class="nav-item"><a class="nav-link" href="mozgas.html">Mozgás</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="alvas.html">Alvás és képernyő</a></li>
+        <li class="nav-item"><a class="nav-link" href="kutatas.html">Kutatásunk</a></li>
+        <li class="nav-item"><a class="nav-link" href="forrasok.html">Források</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="oldal-fej">
+  <div class="container">
+    <span class="rovat">3. téma</span>
+    <h1>Alvás és képernyőidő</h1>
+    <p class="mt-3">Itt van a második vakfolt — és a felmérésem legmarkánsabb összefüggése: a képernyőidő és a rendszeres nappali fáradtság kapcsolata.</p>
+  </div>
+</header>
+
+<section class="adatcsik">
+  <div class="container">
+    <span class="cimke">A saját felmérésünkből · 22 kitöltő</span>
+    <div class="row g-4">
+      <div class="col-6 col-lg-3"><span class="szam">45%</span><span class="leiras">7 óránál kevesebbet alszik iskolanapokon</span></div>
+      <div class="col-6 col-lg-3"><span class="szam">1 fő</span><span class="leiras">éri el az ajánlott 8 órát – a 22-ből</span></div>
+      <div class="col-6 col-lg-3"><span class="szam">55%</span><span class="leiras">tölt naponta több mint 4 órát képernyő előtt</span></div>
+      <div class="col-6 col-lg-3"><span class="szam">64%</span><span class="leiras">érzi magát legalább hetente többször fáradtnak</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="szakasz szakasz-vilagos">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <span class="rovat">Alapok</span>
+        <h2>Az alvás nem kikapcsolás</h2>
+        <p>Alvás közben az agy nem pihen, hanem dolgozik: rendszerezi a nap során
+        tanultakat, kitakarítja az anyagcsere-melléktermékeket, és növekedési
+        hormont termel. Ez nem opcionális háttérfolyamat — ez a regeneráció maga.</p>
+        <p>Az éjszaka <strong>90 perces ciklusokból</strong> áll, és a mély alvás nagy része
+        az éjszaka <em>első</em> felére esik. Ezért nem lehet a hét közben kialvatlanul
+        töltött éjszakákat hétvégi délig alvással bepótolni: a hiányzó mélyalvás
+        egyszerűen nem jön vissza.</p>
+        <p class="mb-0">A 14–19 éves korosztály számára ajánlott alvásmennyiség
+        <strong>8–10 óra</strong>. A felmérésemben ezt 22 emberből
+        <strong>1</strong> érte el, és
+        10 fő (45%) 7 óránál is kevesebbet alszik.
+        Ez a második terület — a zöldségfogyasztás mellett —, ahol ez az egyébként
+        aktív minta egyértelműen elmarad az ajánlástól.</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="kepek/alvasciklus.svg" alt="Egy éjszaka alvásszerkezete: négy körülbelül 90 perces ciklus, a mély alvás az éjszaka első felében sűrűbb" class="img-fluid">
+        <p class="forrasjel mt-2 mb-0">Saját szerkesztésű ábra (SVG) alvásélettani szakirodalom
+        alapján. Gerecze Ádám, 2026.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="szakasz">
+  <div class="container">
+    <span class="rovat">A felmérés fő eredménye</span>
+    <h2>Képernyőidő és rendszeres fáradtság</h2>
+    <div class="row g-5 align-items-center mt-1">
+      <div class="col-lg-7">
+        <figure class="diagram">
+          <img src="kepek/diagramok/17_kepernyo_faradtsag.png" alt="Oszlopdiagram a napi képernyőidő és a rendszeres nappali fáradtság kapcsolatáról">
+          <figcaption>Saját felmérés, n=22, 2026. augusztus. Készült Python (matplotlib) segítségével.</figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-5">
+        <div class="tabla">
+          <table class="table mb-0">
+            <thead><tr><th>Napi képernyőidő</th><th>Fő</th><th>Rendszeresen fáradt</th></tr></thead>
+            <tbody>
+              <tr><td>< 2 óra</td><td>1</td><td>0 (0%)</td></tr>
+              <tr><td>2–4 óra</td><td>9</td><td>3 (33%)</td></tr>
+              <tr><td>4–6 óra</td><td>10</td><td>9 (90%)</td></tr>
+              <tr><td>6+ óra</td><td>2</td><td>2 (100%)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-secondary mt-3 mb-0">Két csoportra összevonva: a napi 4 óránál
+        kevesebbet képernyőzők közül <strong>30%</strong>
+        (3 / 10 fő), a 4 óránál többet
+        képernyőzők közül <strong>92%</strong>
+        (11 / 12 fő) fáradt rendszeresen.</p>
+        <div class="figyelem mt-4">
+          <h3>Amit ebből nem szabad kiolvasni</h3>
+          <p class="mb-0">Ez <strong>együttjárás, nem bizonyított ok-okozat</strong>. Lehet, hogy
+          a képernyőzés fáraszt el; de az is lehet, hogy a fáradt ember választja a
+          passzív képernyőzést. 22 fős, nem reprezentatív mintán ennél erősebb
+          állítást nem tehetek — a két szélső kategóriában ráadásul mindössze 1, illetve
+          2 válaszadó van.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="szakasz szakasz-vilagos">
+  <div class="container">
+    <span class="rovat">Amivel nem lett baj</span>
+    <h2>Az energiaital ördögi köre — itt éppen nem működik</h2>
+    <p class="text-secondary" style="max-width:64ch">A fáradtságra adott szokásos válasz
+    az energiaital lenne, aminek a koffeinje 5–6 óráig hat: a délután 4-kor megivott
+    doboz este 10-kor még mindig aktív, tehát maga termeli újra a fáradtságot.
+    A felmérésemben viszont <strong>14 ember
+    (64%) soha nem iszik energiaitalt</strong>, és napi fogyasztó
+    egyáltalán nincs a mintában. Ez lényegesen jobb kép, mint amire a téma
+    médiavisszhangja alapján számítottam. A fáradtság oka tehát máshol keresendő —
+    valószínűleg az alvásban és a képernyőidőben.</p>
+    <div class="row g-4 mt-2">
+      <div class="col-md-4">
+        <div class="kartya">
+          <div class="kartya-ikon">📱</div>
+          <h3>30 perc telefonmentes</h3>
+          <p class="text-secondary mb-0">Lefekvés előtt fél órával tedd le. A kék fény
+          hatásánál is fontosabb, hogy a tartalom felpörget — a végtelen görgetés
+          nem hagyja lenyugodni az agyat.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="kartya">
+          <div class="kartya-ikon">⏰</div>
+          <h3>Fix ébredés</h3>
+          <p class="text-secondary mb-0">A szervezet a felkelési időhöz igazodik, nem a
+          lefekvéshez. Ha hétvégén is nagyjából ugyanakkor kelsz, hétfőn nem kell
+          újratanulnia a ritmust.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="kartya">
+          <div class="kartya-ikon">☕</div>
+          <h3>Koffeinstop délután</h3>
+          <p class="text-secondary mb-0">Délután 4 után se kávé, se energiaital, se
+          erős tea. Ez az egyetlen szabály sokaknál látványosan javítja az
+          elalvást.</p>
+        </div>
+      </div>
+    </div>
+    <div class="tipp mt-4">
+      <h3>Ha nem megy az elalvás</h3>
+      <ul class="mb-0">
+        <li>Sötét, hűvös szoba — 18–20 °C körül a legjobb.</li>
+        <li>Ne az ágyban tanulj vagy nézz sorozatot: az agy társítsa az ágyat az alvással.</li>
+        <li>Ha 20 perc után sem alszol el, kelj fel, csinálj valami unalmasat, aztán feküdj vissza.</li>
+        <li>Ha hetekig tartósan nem tudsz aludni, az már nem szokás kérdése — beszélj orvossal.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <h4>Egészséges életmód</h4>
+        <p class="mb-2">IKT Projektmunka I. osztályozó vizsga házi dolgozat, 1/13. Sz. évfolyam.</p>
+        <p class="mb-0">Készítette: <strong>Gerecze Ádám</strong> · 2026. augusztus</p>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h4>Oldalak</h4>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Kezdőlap</a></li>
+          <li><a href="taplalkozas.html">Táplálkozás</a></li>
+          <li><a href="mozgas.html">Mozgás</a></li>
+          <li><a href="alvas.html">Alvás és képernyő</a></li>
+          <li><a href="kutatas.html">Kutatásunk</a></li>
+          <li><a href="forrasok.html">Források</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4">
+        <h4>Fontos</h4>
+        <p class="mb-0">Ez az oldal iskolai projekt keretében készült, tájékoztató célból.
+        Nem helyettesíti az orvosi tanácsadást. Egészségügyi kérdésekkel fordulj
+        háziorvoshoz vagy iskolaorvoshoz.</p>
+      </div>
+    </div>
+    <div class="zaro d-flex flex-wrap justify-content-between gap-2">
+      <span>© <span id="ev">2026</span> Gerecze Ádám</span>
+      <span>Bootstrap 5.3 · saját CSS · saját SVG ábrák</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

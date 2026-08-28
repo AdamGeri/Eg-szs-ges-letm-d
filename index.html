@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kezdőlap | Egészséges életmód – IKT projektmunka</title>
+<meta name="description" content="Iskolai projektweboldal a fiatalok egészséges életmódjáról: táplálkozás, mozgás, alvás és egy 22 fős saját kérdőíves felmérés eredményei.">
+<meta name="author" content="Gerecze Ádám">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span class="brand-jel">EÉ</span> Egészséges életmód
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menü megnyitása">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a></li>
+        <li class="nav-item"><a class="nav-link" href="taplalkozas.html">Táplálkozás</a></li>
+        <li class="nav-item"><a class="nav-link" href="mozgas.html">Mozgás</a></li>
+        <li class="nav-item"><a class="nav-link" href="alvas.html">Alvás és képernyő</a></li>
+        <li class="nav-item"><a class="nav-link" href="kutatas.html">Kutatásunk</a></li>
+        <li class="nav-item"><a class="nav-link" href="forrasok.html">Források</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <span class="rovat">IKT Projektmunka I. · 1/13. Sz.</span>
+        <h1>Jól élsz — de két dolog kimarad.</h1>
+        <p class="bevezeto mt-3">
+          Megkérdeztem 22 fiatalt arról, hogyan élnek. Aktívabbak és tudatosabbak,
+          mint gondoltam — mégis van két terület, ahol szinte mindenki elmarad az
+          ajánlástól. Ez az oldal arról szól, melyik ez a kettő, és mit lehet vele kezdeni.
+        </p>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <a href="kutatas.html" class="btn btn-zold">Mit mutatnak az adatok?</a>
+          <a href="#pillerek" class="btn btn-vonalas">A négy terület</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="kepek/hero.svg" alt="Az egészséges életmód négy pillére: táplálkozás, mozgás, alvás és folyadékfogyasztás" class="hero-kep">
+        <p class="forrasjel mt-2 mb-0">Saját szerkesztésű ábra (SVG), Gerecze Ádám, 2026.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="adatcsik">
+  <div class="container">
+    <span class="cimke">A saját felmérésünkből · 22 kitöltő</span>
+    <div class="row g-4">
+      <div class="col-6 col-lg-3"><span class="szam">82%</span><span class="leiras">mozog legalább heti három alkalommal</span></div>
+      <div class="col-6 col-lg-3"><span class="szam">1 fő</span><span class="leiras">eszik napi 4-szer zöldséget vagy gyümölcsöt – a 22-ből</span></div>
+      <div class="col-6 col-lg-3"><span class="szam">45%</span><span class="leiras">7 óránál kevesebbet alszik iskolanapokon</span></div>
+      <div class="col-6 col-lg-3"><span class="szam">64%</span><span class="leiras">érzi magát legalább hetente többször fáradtnak</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="szakasz szakasz-vilagos" id="pillerek">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-8">
+        <span class="rovat">Témák</span>
+        <h2>Négy terület, ami tényleg számít</h2>
+        <p class="text-secondary mb-0">
+          A felmérésem szerint a megkérdezettek a mozgásban és a folyadékfogyasztásban
+          erősek, a zöldségfogyasztásban és az alvásban viszont majdnem mindenki
+          elmarad. Mindegyik témánál megmutatom, mit mond a szakirodalom, és mit
+          mutattak a saját adataim.
+        </p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <article class="kartya">
+          <div class="kartya-ikon">🍎</div>
+          <h3>Táplálkozás</h3>
+          <p class="text-secondary">A tányérmodell és a felmérés leggyengébb pontja: a zöldség- és gyümölcsfogyasztás.</p>
+          <a href="taplalkozas.html">Tovább →</a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <article class="kartya">
+          <div class="kartya-ikon">🏃</div>
+          <h3>Mozgás</h3>
+          <p class="text-secondary">A minta legerősebb területe — és miért nem véd meg a mozgás mindentől.</p>
+          <a href="mozgas.html">Tovább →</a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <article class="kartya">
+          <div class="kartya-ikon">🌙</div>
+          <h3>Alvás és képernyő</h3>
+          <p class="text-secondary">A második vakfolt, és a felmérés legmarkánsabb összefüggése.</p>
+          <a href="alvas.html">Tovább →</a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <article class="kartya">
+          <div class="kartya-ikon">📊</div>
+          <h3>Kutatásunk</h3>
+          <p class="text-secondary">16 kérdés, 22 kitöltő, 18 diagram — és amit ezekből meg lehet tanulni.</p>
+          <a href="kutatas.html">Tovább →</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="szakasz">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5">
+        <span class="rovat">Kezdés</span>
+        <h2>Öt lépés, ami ma elkezdhető</h2>
+        <p class="text-secondary">
+          A felmérésem szerint a megkérdezettek nagy része már sportol, vizet iszik és
+          reggelizik. Éppen ezért nem életmódváltást javaslok, hanem öt olyan apróságot,
+          ami pont a két hiányzó területre — a zöldségre és az alvásra — irányul.
+        </p>
+        <p class="text-secondary mb-0">
+          Ezek egyikéhez sem kell külön időt szánni vagy pénzt költeni. Mindegyik egy
+          döntés, nem egy program.
+        </p>
+      </div>
+      <div class="col-lg-7">
+        <img src="kepek/lepesek.svg" alt="Öt kis lépés: egy pohár víz reggel, egy gyümölcs a táskába, heti kétszer húsz perc séta, telefon félretétele lefekvés előtt, fix lefekvési idő" class="img-fluid">
+        <p class="forrasjel mt-2 mb-0">Saját szerkesztésű ábra (SVG), Gerecze Ádám, 2026.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="szakasz szakasz-vilagos">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <span class="rovat">Interaktív</span>
+        <h2>Hogy állsz ma?</h2>
+        <p class="text-secondary">
+          Pipáld ki, amit ma már megtettél. Nem verseny — csak egy visszajelzés arról,
+          hol tartasz. Az eredményt nem mentjük el sehova.
+        </p>
+        <div class="tipp mt-4">
+          <h3>Miért a napi szint?</h3>
+          <p class="mb-0">Egy szokás akkor rögzül, ha kicsi és ismételhető. A „hétfőtől
+          teljesen új életet kezdek" tervek jellemzően a második héten elhalnak.</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="kartya">
+          <h3 class="mb-3">Napi ellenőrzőlista</h3>
+          <div id="lista">
+            <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="p1"><label class="form-check-label" for="p1">Reggeliztem</label></div>
+            <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="p2"><label class="form-check-label" for="p2">Legalább 5 pohár vizet ittam</label></div>
+            <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="p3"><label class="form-check-label" for="p3">Ettem legalább 2 adag zöldséget vagy gyümölcsöt</label></div>
+            <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="p4"><label class="form-check-label" for="p4">Mozogtam legalább 20 percet</label></div>
+            <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="p5"><label class="form-check-label" for="p5">Nem ittam cukros üdítőt vagy energiaitalt</label></div>
+            <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="p6"><label class="form-check-label" for="p6">Tegnap legalább 7 órát aludtam</label></div>
+          </div>
+          <hr>
+          <div class="progress mb-2" style="height:10px" role="progressbar" aria-label="Teljesített pontok" aria-valuemin="0" aria-valuemax="6">
+            <div class="progress-bar" id="sav" style="width:0%;background:#1F7A5C"></div>
+          </div>
+          <p class="mb-0" id="visszajelzes" aria-live="polite"><strong>0 / 6</strong> — Jelöld be, amit ma már megtettél.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <h4>Egészséges életmód</h4>
+        <p class="mb-2">IKT Projektmunka I. osztályozó vizsga házi dolgozat, 1/13. Sz. évfolyam.</p>
+        <p class="mb-0">Készítette: <strong>Gerecze Ádám</strong> · 2026. augusztus</p>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h4>Oldalak</h4>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Kezdőlap</a></li>
+          <li><a href="taplalkozas.html">Táplálkozás</a></li>
+          <li><a href="mozgas.html">Mozgás</a></li>
+          <li><a href="alvas.html">Alvás és képernyő</a></li>
+          <li><a href="kutatas.html">Kutatásunk</a></li>
+          <li><a href="forrasok.html">Források</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4">
+        <h4>Fontos</h4>
+        <p class="mb-0">Ez az oldal iskolai projekt keretében készült, tájékoztató célból.
+        Nem helyettesíti az orvosi tanácsadást. Egészségügyi kérdésekkel fordulj
+        háziorvoshoz vagy iskolaorvoshoz.</p>
+      </div>
+    </div>
+    <div class="zaro d-flex flex-wrap justify-content-between gap-2">
+      <span>© <span id="ev">2026</span> Gerecze Ádám</span>
+      <span>Bootstrap 5.3 · saját CSS · saját SVG ábrák</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

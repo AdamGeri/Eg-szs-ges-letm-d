@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 400" role="img" aria-labelledby="m1">
+  <title id="m1">A mozgáspiramis: az alapot a napi hétköznapi mozgás adja, a csúcsán a hosszú ülés áll</title>
+  <rect width="540" height="400" fill="#F5F8F6"/>
+  <g>
+    <path d="M270,30 L318,110 L222,110 Z" fill="#D9594C"/>
+    <path d="M222,118 L318,118 L358,196 L182,196 Z" fill="#E9873F"/>
+    <path d="M182,204 L358,204 L398,282 L142,282 Z" fill="#7FB89A"/>
+    <path d="M142,290 L398,290 L438,368 L102,368 Z" fill="#1F7A5C"/>
+  </g>
+  <text x="270" y="98" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#ffffff">ÜLÉS</text>
+  <text x="270" y="152" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Nyújtás, mobilizálás</text>
+  <text x="270" y="174" text-anchor="middle" font-family="Karla, Segoe UI, sans-serif" font-size="12" fill="#FBEBDD">heti 2–3 alkalom</text>
+  <text x="270" y="238" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#14503B">Edzés, sport, erősítés</text>
+  <text x="270" y="260" text-anchor="middle" font-family="Karla, Segoe UI, sans-serif" font-size="12" fill="#14503B">heti 2–3 alkalom, 30–60 perc</text>
+  <text x="270" y="324" text-anchor="middle" font-family="Outfit, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Hétköznapi mozgás</text>
+  <text x="270" y="346" text-anchor="middle" font-family="Karla, Segoe UI, sans-serif" font-size="12" fill="#D6EDE2">séta, lépcső, kerékpár — minden nap</text>
+  <g font-family="Karla, Segoe UI, sans-serif" font-size="12" fill="#5F6F68">
+    <text x="20" y="70">kevesebbet</text>
+    <text x="20" y="356">többet</text>
+    <path d="M42,84 L42,338" stroke="#B9CCC3" stroke-width="2" marker-end="url(#a)"/>
+  </g>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto"><path d="M0,0 L4,8 L8,0 Z" fill="#B9CCC3"/></marker></defs>
+</svg>

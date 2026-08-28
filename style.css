@@ -1,0 +1,231 @@
+/* =========================================================
+   Egészséges életmód – projektweboldal
+   Egyedi stíluslap a Bootstrap 5.3 fölé
+   Készítette: Gerecze Ádám, 2026.
+   ========================================================= */
+
+:root {
+  --zold-sotet: #14503B;
+  --zold:       #1F7A5C;
+  --zold-vil:   #7FB89A;
+  --zold-halv:  #E3F0E9;
+  --lime:       #A9CF46;
+  --korall:     #D9594C;
+  --narancs:    #E9873F;
+  --tinta:      #16241F;
+  --szurke:     #5F6F68;
+  --hatter:     #F5F8F6;
+  --vonal:      #DCE6E1;
+
+  --fej: "Outfit", "Segoe UI", system-ui, sans-serif;
+  --torzs: "Karla", "Segoe UI", system-ui, sans-serif;
+}
+
+/* ---------- Alapok ---------- */
+body {
+  font-family: var(--torzs);
+  color: var(--tinta);
+  background: var(--hatter);
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+h1, h2, h3, h4, h5, .fej {
+  font-family: var(--fej);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--zold-sotet);
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.12; }
+h2 { font-size: clamp(1.5rem, 3.2vw, 2.1rem); margin-bottom: .9rem; }
+h3 { font-size: 1.22rem; }
+
+a { color: var(--zold); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--zold-sotet); }
+
+.szakasz { padding: 4.5rem 0; }
+.szakasz-vilagos { background: #ffffff; }
+
+/* Rovatjelző – a tartalom típusát jelzi, nem díszít */
+.rovat {
+  font-family: var(--fej);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--zold);
+  display: block;
+  margin-bottom: .5rem;
+}
+
+/* ---------- Navigáció ---------- */
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid var(--vonal);
+}
+.navbar-brand {
+  font-family: var(--fej);
+  font-weight: 700;
+  font-size: 1.14rem;
+  color: var(--zold-sotet) !important;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.brand-jel {
+  width: 32px; height: 32px;
+  background: var(--zold-sotet);
+  border-radius: 9px;
+  display: grid; place-items: center;
+  color: #fff; font-size: .95rem; font-weight: 700;
+}
+.navbar .nav-link {
+  font-family: var(--fej);
+  font-weight: 500;
+  color: var(--szurke);
+  padding: .45rem .9rem !important;
+  border-radius: 8px;
+}
+.navbar .nav-link:hover { color: var(--zold-sotet); background: var(--zold-halv); }
+.navbar .nav-link.active { color: var(--zold-sotet); background: var(--zold-halv); font-weight: 700; }
+
+/* ---------- Fejléc / hero ---------- */
+.hero { background: #ffffff; padding: 4rem 0 3.5rem; border-bottom: 1px solid var(--vonal); }
+.hero p.bevezeto { font-size: 1.14rem; color: var(--szurke); max-width: 44ch; }
+.hero-kep { max-width: 100%; height: auto; }
+
+.oldal-fej { background: #ffffff; padding: 3rem 0 2.4rem; border-bottom: 1px solid var(--vonal); }
+.oldal-fej p { color: var(--szurke); max-width: 62ch; margin-bottom: 0; }
+
+/* ---------- Adatcsík: a saját felmérés számai ---------- */
+.adatcsik {
+  background: var(--zold-sotet);
+  color: #ffffff;
+  padding: 2.2rem 0;
+}
+.adatcsik .cimke {
+  font-family: var(--fej);
+  font-size: .74rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--lime); display: block; margin-bottom: 1rem;
+}
+.adatcsik .szam {
+  font-family: var(--fej);
+  font-size: 2.6rem; font-weight: 700; line-height: 1; color: #ffffff;
+}
+.adatcsik .leiras { font-size: .93rem; color: #C6DDD2; margin-top: .4rem; display: block; }
+
+/* ---------- Kártyák ---------- */
+.kartya {
+  background: #ffffff;
+  border: 1px solid var(--vonal);
+  border-radius: 16px;
+  padding: 1.75rem;
+  height: 100%;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.kartya:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(20,80,59,.10); }
+.kartya h3 { margin-bottom: .55rem; }
+.kartya p:last-child { margin-bottom: 0; }
+
+.kartya-ikon {
+  width: 46px; height: 46px; border-radius: 12px;
+  background: var(--zold-halv);
+  display: grid; place-items: center;
+  font-size: 1.35rem; margin-bottom: 1rem;
+}
+
+.tipp {
+  background: var(--zold-halv);
+  border-radius: 14px;
+  padding: 1.4rem 1.6rem;
+}
+.tipp h3 { font-size: 1.05rem; }
+
+.figyelem {
+  background: #FCEEEC;
+  border-radius: 14px;
+  padding: 1.4rem 1.6rem;
+  color: #7A2B22;
+}
+.figyelem h3 { color: #A8382B; font-size: 1.05rem; }
+
+/* ---------- Listák ---------- */
+.pipa-lista { list-style: none; padding-left: 0; }
+.pipa-lista li { position: relative; padding-left: 1.9rem; margin-bottom: .7rem; }
+.pipa-lista li::before {
+  content: "✓"; position: absolute; left: 0; top: 0;
+  color: var(--zold); font-weight: 700;
+}
+
+/* ---------- Táblázatok ---------- */
+.tabla { background:#fff; border:1px solid var(--vonal); border-radius:14px; overflow:hidden; }
+.tabla table { margin-bottom: 0; }
+.tabla thead th {
+  background: var(--zold-halv); color: var(--zold-sotet);
+  font-family: var(--fej); font-weight: 700; font-size: .93rem;
+  border-bottom: 1px solid var(--vonal);
+}
+.tabla td, .tabla th { padding: .8rem 1rem; vertical-align: middle; }
+
+/* ---------- Diagramok ---------- */
+.diagram {
+  background: #ffffff; border: 1px solid var(--vonal);
+  border-radius: 14px; padding: 1rem; height: 100%;
+}
+.diagram img { width: 100%; height: auto; border-radius: 8px; }
+.diagram figcaption { font-size: .88rem; color: var(--szurke); margin-top: .7rem; }
+
+/* ---------- Gombok ---------- */
+.btn-zold {
+  background: var(--zold-sotet); color: #fff;
+  font-family: var(--fej); font-weight: 600;
+  border-radius: 10px; padding: .68rem 1.5rem; border: 0;
+}
+.btn-zold:hover { background: var(--zold); color: #fff; }
+.btn-vonalas {
+  background: transparent; color: var(--zold-sotet);
+  border: 1.5px solid var(--zold-sotet);
+  font-family: var(--fej); font-weight: 600;
+  border-radius: 10px; padding: .66rem 1.5rem;
+}
+.btn-vonalas:hover { background: var(--zold-halv); color: var(--zold-sotet); }
+
+/* ---------- Forrásmegjelölés kép alatt ---------- */
+.forrasjel { font-size: .8rem; color: var(--szurke); font-style: italic; }
+
+/* ---------- Lábléc ---------- */
+footer {
+  background: var(--zold-sotet); color: #C6DDD2;
+  padding: 3rem 0 1.6rem; margin-top: 0;
+}
+footer h4 { color: #ffffff; font-size: 1rem; margin-bottom: .9rem; }
+footer a { color: #C6DDD2; text-decoration: none; }
+footer a:hover { color: var(--lime); text-decoration: underline; }
+footer .zaro {
+  border-top: 1px solid rgba(255,255,255,.16);
+  margin-top: 2rem; padding-top: 1.2rem;
+  font-size: .88rem; color: #9DBBAE;
+}
+
+/* ---------- Hozzáférhetőség ---------- */
+:focus-visible { outline: 3px solid var(--lime); outline-offset: 2px; border-radius: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+@media (max-width: 767.98px) {
+  .szakasz { padding: 3rem 0; }
+  .adatcsik .szam { font-size: 2.1rem; }
+}
+
+/* ---------- Mintaadat-figyelmeztetés ---------- */
+.minta-sav {
+  background: #FCEEEC;
+  border-bottom: 1px solid #F3D5D0;
+  color: #7A2B22;
+  font-size: .93rem;
+  padding: .8rem 0;
+}
+.minta-sav strong { color: #A8382B; }
